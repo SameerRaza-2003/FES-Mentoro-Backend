@@ -1,6 +1,0 @@
-fastapi
-uvicorn[standard]
-openai
-pinecone
-sse-starlette
-python-dotenv
