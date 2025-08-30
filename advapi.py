@@ -204,7 +204,7 @@ def fast_contact_response(matches: list, query: str) -> Optional[str]:
 def generate_answer(user_query: str, context_text: str) -> str:
     resp = client.chat.completions.create(
         model="gpt-4o-mini",
-        temperature=0.5,
+        temperature=0.3,
         messages=[
             {"role": "system", "content": SYSTEM_INSTRUCTIONS},
             {"role": "user", "content": f"User Query: {user_query}\n\nContext:\n{context_text}"},
