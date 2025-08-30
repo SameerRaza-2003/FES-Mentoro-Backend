@@ -1,6 +1,6 @@
 fastapi
 uvicorn[standard]
 openai
-pinecone-client
+pinecone
 sse-starlette
 python-dotenv
