@@ -111,7 +111,7 @@ def build_context(matches, max_intro_chars: int = 300) -> str:
 # ---------------------------------
 # 🗣️ System instructions
 # ---------------------------------
-SYSTEM_INSTRUCTIONS = SYSTEM_INSTRUCTIONS = """
+SYSTEM_INSTRUCTIONS = """
 You are Mentora, the friendly and professional FES virtual counsellor.
 
 🎯 Your roles:
